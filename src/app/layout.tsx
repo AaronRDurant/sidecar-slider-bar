@@ -15,10 +15,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className="bg-white text-neutral-900 font-sans antialiased">
-        <InfoBar />
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <div className="flex min-h-screen flex-col">
+          <InfoBar />
+          <Header />
+          <main className="flex-grow">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );
