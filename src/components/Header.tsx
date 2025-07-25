@@ -2,38 +2,52 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
-  const links = [
-    { label: "Home", href: "/" },
-    { label: "Menus", href: "/menus" },
-    { label: "Order Now", href: "/order" },
+  const navLinks = [
+    { label: "About", href: "/about" },
     { label: "Locations", href: "/locations" },
     { label: "Catering", href: "/catering" },
-    { label: "Become a VIP", href: "/vip" },
-    { label: "About", href: "/about" },
+    { label: "Press", href: "/press" },
+    { label: "Contact", href: "/contact" },
   ];
 
   return (
-    <header className="border-b border-neutral-200 bg-white">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        {/* Logo */}
+    <header className="bg-[#fdfdfb] shadow-sm border-b border-neutral-200">
+      <div className="mx-auto max-w-7xl flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+        {/* Logo placeholder */}
         <Link
           href="/"
-          className="text-lg font-bold tracking-tight text-neutral-900"
+          className="text-lg font-extrabold tracking-tight text-neutral-900"
         >
           Sidecar Slider Bar
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden gap-6 text-sm font-medium text-neutral-700 md:flex">
-          {links.map(({ label, href }) => (
-            <Link key={href} href={href}>
+        <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
+          {navLinks.map(({ label, href }) => (
+            <Link
+              key={href}
+              href={href}
+              className={`transition-colors hover:text-black ${
+                pathname === href ? "text-black" : "text-neutral-600"
+              }`}
+            >
               {label}
             </Link>
           ))}
+
+          {/* CTA */}
+          <Link
+            href="/order"
+            className="ml-4 inline-flex items-center rounded-md border border-black px-4 py-1.5 text-sm font-semibold text-black transition-colors hover:bg-black hover:text-white"
+          >
+            Order Online
+          </Link>
         </nav>
 
         {/* Mobile toggle */}
@@ -80,15 +94,30 @@ export default function Header() {
 
       {/* Mobile Nav */}
       {isOpen && (
-        <nav className="md:hidden border-t border-neutral-200 bg-white px-4 py-4">
-          <ul className="space-y-3 text-sm font-medium text-neutral-700">
-            {links.map(({ label, href }) => (
+        <nav className="md:hidden border-t border-neutral-200 bg-[#fdfdfb] px-4 py-4">
+          <ul className="space-y-4 text-sm font-medium">
+            {navLinks.map(({ label, href }) => (
               <li key={href}>
-                <Link href={href} onClick={() => setIsOpen(false)}>
+                <Link
+                  href={href}
+                  onClick={() => setIsOpen(false)}
+                  className={`block transition-colors hover:text-black ${
+                    pathname === href ? "text-black" : "text-neutral-700"
+                  }`}
+                >
                   {label}
                 </Link>
               </li>
             ))}
+            <li>
+              <Link
+                href="/order"
+                onClick={() => setIsOpen(false)}
+                className="mt-2 inline-block w-full rounded-md border border-black px-4 py-2 text-center font-semibold text-black transition-colors hover:bg-black hover:text-white"
+              >
+                Order Online
+              </Link>
+            </li>
           </ul>
         </nav>
       )}
