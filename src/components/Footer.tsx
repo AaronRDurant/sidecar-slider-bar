@@ -3,21 +3,21 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="border-t border-neutral-200 bg-neutral-50 text-neutral-700 text-sm">
-      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
-          {/* About / SEO Text */}
+      <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-3">
+          {/* About / Branding */}
           <div>
             <h2 className="font-semibold text-neutral-900">
               Sidecar Slider Bar
             </h2>
-            <p className="mt-2 leading-relaxed text-neutral-600">
+            <p className="mt-2 max-w-sm leading-relaxed text-neutral-600">
               Gourmet sliders, craft beer, and cocktails — served in a welcoming
               Michigan atmosphere. With locations across the state, we offer
               something for everyone, from classic beef to loaded tots.
             </p>
           </div>
 
-          {/* Links */}
+          {/* Explore */}
           <div>
             <h2 className="font-semibold text-neutral-900">Explore</h2>
             <ul className="mt-2 space-y-2">
@@ -39,49 +39,28 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Quick Links */}
+          {/* Info */}
           <div>
-            <h2 className="font-semibold text-neutral-900">Guests</h2>
+            <h2 className="font-semibold text-neutral-900">Info</h2>
             <ul className="mt-2 space-y-2">
               <li>
-                <Link href="/order">Order Online</Link>
+                <Link href="/press">Press</Link>
               </li>
               <li>
-                <Link href="/vip">Become a VIP</Link>
-              </li>
-              <li>
-                <Link href="/contact">Contact Us</Link>
+                <Link href="/contact">Contact</Link>
               </li>
               <li>
                 <Link href="/careers">Join Our Team</Link>
               </li>
+              <li>
+                <Link href="/order">Order Online</Link>
+              </li>
             </ul>
-          </div>
-
-          {/* Newsletter (static placeholder for now) */}
-          <div>
-            <h2 className="font-semibold text-neutral-900">Stay in Touch</h2>
-            <p className="mt-2 text-neutral-600">
-              Get exclusive offers, event invites, and updates — no spam.
-            </p>
-            <form className="mt-4">
-              <input
-                type="email"
-                placeholder="Your email"
-                className="w-full rounded-md border border-neutral-300 bg-white px-3 py-2 text-sm"
-              />
-              <button
-                type="submit"
-                className="mt-2 w-full rounded-md bg-neutral-900 px-3 py-2 text-sm font-medium text-white hover:bg-neutral-800"
-              >
-                Subscribe
-              </button>
-            </form>
           </div>
         </div>
 
-        {/* Bottom row */}
-        <div className="mt-8 border-t border-neutral-200 pt-4 text-center text-xs text-neutral-500">
+        {/* Bottom */}
+        <div className="mt-12 border-t border-neutral-200 pt-4 text-center text-xs text-neutral-500">
           © {new Date().getFullYear()} Sidecar Slider Bar. All rights reserved.
         </div>
       </div>
