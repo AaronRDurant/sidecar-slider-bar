@@ -11,16 +11,16 @@ const testimonials = [
     text: "We came for happy hour and stayed all night. Killer drinks, even better energy. The staff made us feel like regulars.",
   },
   {
-    text: "Best bourbon selection I’ve seen at a casual spot. They had pours I usually only find in downtown speakeasies.",
+    text: "Best bourbon selection I've seen at a casual spot. They had pours I usually only find in downtown speakeasies.",
   },
   {
-    text: "Sidecar is our go-to after work. Apps come out fast, the drinks are strong, and there’s always a chill vibe.",
+    text: "Sidecar is our go-to after work. Apps come out fast, the drinks are strong, and there's always a chill vibe.",
   },
   {
     text: "Had a surprise birthday here. They handled everything — food, drinks, space — flawlessly. Total pros.",
   },
   {
-    text: "Somehow it’s a perfect date night and a great place to watch the game. Sidecar hits both ends of the spectrum.",
+    text: "Somehow it's a perfect date night and a great place to watch the game. Sidecar hits both ends of the spectrum.",
   },
 ];
 

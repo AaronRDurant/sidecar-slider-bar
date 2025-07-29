@@ -4,7 +4,7 @@ import EmploymentForm from "@/components/EmploymentForm";
 export const metadata = {
   title: "Employment — Sidecar Slider Bar",
   description:
-    "Apply to join the Sidecar team. We’re always looking for energetic, reliable team members.",
+    "Apply to join the Sidecar team. We're always looking for energetic, reliable team members.",
 };
 
 export default function EmploymentPage() {
@@ -35,8 +35,8 @@ export default function EmploymentPage() {
             Apply Now
           </h2>
           <p className="text-neutral-600 mt-2 max-w-2xl mx-auto">
-            We’re always looking for energetic, reliable team members. Fill out
-            the form below and we’ll be in touch if it’s a fit!
+            We&apos;re always looking for energetic, reliable team members. Fill
+            out the form below and we&apos;ll be in touch if it&apos;s a fit!
           </p>
         </div>
         <EmploymentForm />

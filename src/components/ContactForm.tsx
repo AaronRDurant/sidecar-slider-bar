@@ -15,7 +15,7 @@ export default function ContactForm() {
     >
       {submitted ? (
         <p className="text-green-600 text-center font-medium">
-          Thanks for reaching out! We’ll be in touch shortly.
+          Thanks for reaching out! We&apos;ll be in touch shortly.
         </p>
       ) : (
         <>

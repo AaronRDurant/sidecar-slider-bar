@@ -7,10 +7,10 @@ export default function CoreInfo() {
         <div className="md:w-1/2 text-center md:text-left">
           <h2 className="text-3xl font-bold mb-4">More Than Just Sliders</h2>
           <p className="text-lg leading-relaxed">
-            Whether you’re catching up with friends, unwinding after work, or
-            just grabbing a late-night bite, Sidecar Slider Bar delivers a chill
-            neighborhood vibe every time. Local brews, good people, and real
-            flavor — it’s that simple.
+            Whether you&apos;re catching up with friends, unwinding after work,
+            or just grabbing a late-night bite, Sidecar Slider Bar delivers a
+            chill neighborhood vibe every time. Local brews, good people, and
+            real flavor — it&apos;s that simple.
           </p>
         </div>
         <div className="md:w-1/2">

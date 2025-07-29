@@ -37,7 +37,7 @@ export default function ContactPage() {
           </h2>
           <p className="text-neutral-600 mt-2 max-w-2xl mx-auto">
             Have a question, request, or just want to say hello? Drop us a line
-            and we’ll get back to you as soon as we can.
+            and we&apos;ll get back to you as soon as we can.
           </p>
         </div>
         <ContactForm />
