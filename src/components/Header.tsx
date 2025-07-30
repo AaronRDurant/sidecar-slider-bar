@@ -12,7 +12,6 @@ export default function Header() {
     { label: "About", href: "/about" },
     { label: "Locations", href: "/locations" },
     { label: "Catering", href: "/catering" },
-    { label: "Press", href: "/press" },
     { label: "Contact", href: "/contact" },
   ];
 
@@ -43,7 +42,9 @@ export default function Header() {
 
           {/* CTA */}
           <Link
-            href="/order"
+            href="https://order.online/business/~108859"
+            target="_blank"
+            rel="noopener noreferrer"
             className="ml-4 inline-flex items-center rounded-md border border-black px-4 py-1.5 text-sm font-semibold text-black transition-colors hover:bg-black hover:text-white"
           >
             Order Online
@@ -111,7 +112,9 @@ export default function Header() {
             ))}
             <li>
               <Link
-                href="/order"
+                href="https://order.online/business/~108859"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}
                 className="mt-2 inline-block w-full rounded-md border border-black px-4 py-2 text-center font-semibold text-black transition-colors hover:bg-black hover:text-white"
               >
