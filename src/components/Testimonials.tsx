@@ -11,7 +11,7 @@ const testimonials = [
     text: "We came for happy hour and stayed all night. Killer drinks, even better energy. The staff made us feel like regulars.",
   },
   {
-    text: "Best bourbon selection I've seen at a casual spot. They had pours I usually only find in downtown speakeasies.",
+    text: "Great time at the Ferndale location. Jacob was friendly, on point, and the breakfast slider with egg was amazing!",
   },
   {
     text: "Sidecar is our go-to after work. Apps come out fast, the drinks are strong, and there's always a chill vibe.",
