@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 export default function Header() {
@@ -17,13 +18,16 @@ export default function Header() {
 
   return (
     <header className="bg-[#fdfdfb] shadow-sm border-b border-neutral-200">
-      <div className="mx-auto max-w-7xl flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        {/* Logo placeholder */}
-        <Link
-          href="/"
-          className="text-lg font-extrabold tracking-tight text-neutral-900"
-        >
-          Sidecar Slider Bar
+      <div className="mx-auto max-w-6xl flex items-center justify-between px-4 py-2.5 sm:px-6 lg:px-8">
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/images/Sidecar-Slider-Bar-logo.svg"
+            alt="Sidecar Slider Bar"
+            width={480}
+            height={183}
+            className="h-12 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop Nav */}
