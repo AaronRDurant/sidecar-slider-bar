@@ -8,8 +8,8 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="relative h-[60vh] w-full overflow-hidden">
         <Image
-          src="/images/moto-sidecar-placeholder.jpg"
-          alt="Interior of Sidecar Slider Bar"
+          src="/images/Sidecar-Slider-Bar-sliders-menu.jpg"
+          alt="A collection of Sidecar Slider Bar sliders on a restaurant bar"
           fill
           className="object-cover"
           priority
@@ -26,8 +26,8 @@ export default function AboutPage() {
       <section className="max-w-6xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-12 items-start">
         <div>
           <Image
-            src="/images/moto-sidecar-placeholder.jpg"
-            alt="Sidecar Slider Bar Sign"
+            src="/images/Sidecar-Slider-Bar-pizza-street-view.jpg"
+            alt="Sidecar Slider Bar street view with pizza"
             width={800}
             height={600}
             className="rounded-xl shadow-lg object-cover w-full h-auto"
@@ -37,39 +37,33 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold mb-6">Our Story</h2>
           <div className="space-y-5 text-lg leading-relaxed">
             <p>
-              At Sidecar Slider Bar, we pride ourselves on serving up delicious
-              sliders and a wide array of craft beverages in a relaxed and
-              casual atmosphere.
+              At Sidecar Slider Bar, we serve crave-worthy sliders, shareable
+              apps, and a full bar lineup in a welcoming, laid-back atmosphere.
             </p>
             <p>
-              Our menu features a variety of mouth-watering sliders, including
-              classic beef, pulled pork, chicken, fish and vegetarian options.
-              We also offer a variety of gourmet hot dogs, shareable sides, and
-              salads.
+              Our menu includes classic beef sliders, creative chef-inspired
+              options, gourmet hot dogs, loaded tots, salads, and more.
+              There&apos;s truly something for everyone.
             </p>
             <p>
-              Our bar offers an extensive selection of local and regional craft
-              beers, interesting wines, cocktails, and non-alcoholic beverages.
-              We pride ourselves on our large selection of bourbons, including
-              rare and highly-sought after bottles.
+              Behind the bar, you&apos;ll find a curated mix of Michigan craft
+              beers, signature cocktails, wine, and one of the most impressive
+              bourbon selections in the area — featuring rare bottles you
+              won&apos;t find anywhere else.
             </p>
             <p>
-              The team at Sidecar Slider Bar is committed to providing
-              exceptional service and a memorable dining experience for all our
-              guests. We have something for everyone, whether you&apos;re
-              stopping in for a quick lunch, a happy hour drink, or a fun night
-              out with friends.
+              What started as a small bar in Birmingham, Michigan, has grown
+              into a local favorite with{" "}
+              <strong>eight locations across Metro Detroit</strong>. Each one
+              brings the same bold flavors, welcoming service, and neighborhood
+              vibe that made us who we are.
             </p>
             <p>
-              Sidecar Slider Bar started in downtown Birmingham, Michigan, as a
-              small restaurant &amp; bar that was a &quot;sidecar&quot; to a
-              bigger venue. The B-ham spot quickly grew popular with local
-              diners and moved to a larger space, while Sidecar also grew to new
-              locations in southeast Michigan. With six locations (and more on
-              the way!) we hope to see you at a Sidecar Slider Bar near you
-              soon.
+              Whether you&apos;re grabbing lunch, catching the game, celebrating
+              with friends, or winding down at happy hour, we&apos;re here to
+              make it memorable.
             </p>
-            <p>Cheers!</p>
+            <p>See you at Sidecar Slider Bar soon!</p>
           </div>
         </div>
       </section>
