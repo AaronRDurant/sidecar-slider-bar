@@ -9,30 +9,28 @@ export default function Hero() {
     <section className="relative w-full min-h-[90vh] flex items-center justify-center bg-black">
       {/* Background image */}
       <Image
-        src="/images/moto-sidecar-placeholder.jpg" // Replace with actual image
-        alt="Sidecar Sliders"
-        layout="fill"
-        objectFit="cover"
+        src="/images/Sidecar-Slider-Bar-sliders-hero.jpg"
+        alt="Sidecar Slider Bar gourmet sliders and drinks on a wooden bar"
+        fill
         priority
-        className="z-0"
+        className="object-cover"
       />
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-50 z-10" />
+      <div className="absolute inset-0 bg-black bg-opacity-65 z-10" />
 
       {/* Content */}
-      <div className="relative z-20 px-6 text-center text-white max-w-2xl">
-        <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4">
-          Sliders, Spirits & Real Good Vibes
+      <div className="relative z-20 px-6 text-center text-white max-w-2xl -mt-24 sm:-mt-32">
+        <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4 drop-shadow-md">
+          Sliders, Drinks & Chill Vibes
         </h1>
-        <p className="text-lg sm:text-xl text-neutral-200 mb-6">
-          From craft sliders and gourmet dogs to rare bourbons and local brews,
-          Sidecar Slider Bar brings bold flavors and laid-back vibes to
-          neighborhoods across Metro Detroit.
+        <p className="text-lg sm:text-xl text-neutral-200 mb-4 max-w-md mx-auto">
+          Fresh sliders, craft cocktails, and a laid-back neighborhood vibe
+          you&apos;ll love — served up daily across Metro Detroit.
         </p>
         <Link
           href="/locations"
-          className="mt-6 inline-block rounded border border-white px-6 py-3 text-sm font-semibold text-white transition hover:bg-white hover:text-neutral-900"
+          className="inline-block rounded border border-white px-6 py-3 text-sm font-semibold text-white transition hover:bg-white hover:text-neutral-900"
         >
           Find a Location
         </Link>
