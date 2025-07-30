@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -7,13 +8,21 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-3">
           {/* About / Branding */}
           <div>
-            <h2 className="font-semibold text-neutral-900">
-              Sidecar Slider Bar
-            </h2>
-            <p className="mt-2 max-w-sm leading-relaxed text-neutral-600">
+            <Link href="/" className="inline-block">
+              <Image
+                src="/images/Sidecar-Slider-Bar-sidecar-logo.svg"
+                alt="Sidecar Slider Bar"
+                width={180}
+                height={100}
+                className="h-14 w-auto"
+                priority
+              />
+            </Link>
+            <p className="mt-3 max-w-sm leading-relaxed text-neutral-600">
               Gourmet sliders, craft beer, and cocktails — served in a welcoming
-              Michigan atmosphere. With locations across the state, we offer
-              something for everyone, from classic beef to loaded tots.
+              Michigan atmosphere. With eight locations across the state, we
+              offer something for everyone, from classic beef sliders to loaded
+              tots.
             </p>
           </div>
 
@@ -23,9 +32,6 @@ export default function Footer() {
             <ul className="mt-2 space-y-2">
               <li>
                 <Link href="/">Home</Link>
-              </li>
-              <li>
-                <Link href="/menus">Menus</Link>
               </li>
               <li>
                 <Link href="/locations">Locations</Link>
@@ -44,16 +50,19 @@ export default function Footer() {
             <h2 className="font-semibold text-neutral-900">Info</h2>
             <ul className="mt-2 space-y-2">
               <li>
-                <Link href="/press">Press</Link>
-              </li>
-              <li>
                 <Link href="/contact">Contact</Link>
               </li>
               <li>
-                <Link href="/careers">Join Our Team</Link>
+                <Link href="/apply">Join Our Team</Link>
               </li>
               <li>
-                <Link href="/order">Order Online</Link>
+                <Link
+                  href="https://order.online/business/~108859"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Order Online
+                </Link>
               </li>
             </ul>
           </div>
