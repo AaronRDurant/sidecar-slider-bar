@@ -15,10 +15,10 @@ export default function CoreInfo() {
         </div>
         <div className="md:w-1/2">
           <Image
-            src="/images/moto-sidecar-placeholder.jpg"
-            alt="Interior of Sidecar Slider Bar"
+            src="/images/Sidecar-Slider-Bar-menu-items.jpg"
+            alt="Sidecar Slider Bar pizza, sandwiches, and appetizers on the bar counter"
             width={1200}
-            height={800}
+            height={675}
             className="rounded-lg shadow-md w-full h-auto object-cover"
           />
         </div>

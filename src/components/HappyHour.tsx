@@ -7,11 +7,11 @@ export default function HappyHour() {
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:items-center">
           <div>
             <Image
-              src="/images/moto-sidecar-placeholder.jpg"
-              alt="Drink and draft taps"
+              src="/images/Sidecar-Slider-Bar-tap-handles.jpg"
+              alt="Beer and cocktail taps lined up at Sidecar Slider Bar"
               width={1000}
-              height={800}
-              className="rounded-2xl shadow-xl"
+              height={667}
+              className="rounded-2xl shadow-xl w-full h-auto object-cover"
             />
           </div>
           <div>
