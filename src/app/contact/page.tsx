@@ -14,7 +14,7 @@ export default function ContactPage() {
       {/* Hero */}
       <section className="relative h-72 md:h-96 w-full overflow-hidden">
         <Image
-          src="/images/moto-sidecar-placeholder.jpg"
+          src="/images/Sidecar-Slider-Bar-menu-items.jpg"
           alt="Sidecar Contact Hero"
           fill
           className="object-cover object-center"
