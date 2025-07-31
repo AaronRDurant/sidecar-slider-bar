@@ -7,8 +7,8 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-3">
           {/* About / Branding */}
-          <div>
-            <Link href="/" className="inline-block">
+          <div className="text-center sm:text-left">
+            <Link href="/" className="inline-block mx-auto sm:mx-0">
               <Image
                 src="/images/Sidecar-Slider-Bar-sidecar-logo.svg"
                 alt="Sidecar Slider Bar"
@@ -18,7 +18,7 @@ export default function Footer() {
                 priority
               />
             </Link>
-            <p className="mt-3 max-w-sm leading-relaxed text-neutral-600">
+            <p className="mt-3 max-w-sm mx-auto sm:mx-0 leading-relaxed text-neutral-600">
               Gourmet sliders, craft beer, and cocktails — served in a welcoming
               Michigan atmosphere. With eight locations across the state, we
               offer something for everyone, from classic beef sliders to loaded
@@ -27,7 +27,7 @@ export default function Footer() {
           </div>
 
           {/* Explore */}
-          <div>
+          <div className="text-center sm:text-left">
             <h2 className="font-semibold text-neutral-900">Explore</h2>
             <ul className="mt-2 space-y-2">
               <li>
@@ -46,7 +46,7 @@ export default function Footer() {
           </div>
 
           {/* Info */}
-          <div>
+          <div className="text-center sm:text-left">
             <h2 className="font-semibold text-neutral-900">Info</h2>
             <ul className="mt-2 space-y-2">
               <li>

@@ -126,14 +126,14 @@ export default function EmploymentForm() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <label className="block text-sm font-medium text-neutral-700">
-            First Name*
+            First Name<span className="text-red-600">*</span>
           </label>
           <input
             type="text"
             name="firstName"
             required
             data-label="First Name"
-            className="mt-1 w-full border rounded-md px-3 py-2"
+            className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
           />
         </div>
 
@@ -146,7 +146,7 @@ export default function EmploymentForm() {
             name="lastName"
             required
             data-label="Last Name"
-            className="mt-1 w-full border rounded-md px-3 py-2"
+            className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
           />
         </div>
 
@@ -159,7 +159,7 @@ export default function EmploymentForm() {
             name="email"
             required
             data-label="Email Address"
-            className="mt-1 w-full border rounded-md px-3 py-2"
+            className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
           />
         </div>
 
@@ -179,7 +179,7 @@ export default function EmploymentForm() {
             required
             data-label="Position(s) Applying For"
             placeholder="Server, bartender, etc."
-            className="mt-1 w-full border rounded-md px-3 py-2"
+            className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
           />
         </div>
       </div>
@@ -308,7 +308,7 @@ export default function EmploymentForm() {
           name="citizenship"
           required
           data-label="Citizenship / INS Authorization"
-          className="mt-1 w-full border rounded-md px-3 py-2"
+          className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
         >
           <option value="">Select one</option>
           <option value="Yes">Yes</option>
@@ -329,7 +329,7 @@ export default function EmploymentForm() {
           type="date"
           name="startDate"
           data-label="Start Date"
-          className="mt-1 w-full border rounded-md px-3 py-2"
+          className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
         />
       </div>
 
@@ -341,14 +341,14 @@ export default function EmploymentForm() {
           name="schoolName"
           data-label="Education: School Name"
           placeholder="School Name"
-          className="w-full border rounded-md px-3 py-2"
+          className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
         />
         <input
           type="text"
           name="schoolLocation"
           data-label="Education: City, State"
           placeholder="City, State"
-          className="w-full border rounded-md px-3 py-2"
+          className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
         />
       </div>
 
@@ -362,28 +362,28 @@ export default function EmploymentForm() {
           name="employerName"
           data-label="Employer: Name"
           placeholder="Employer Name"
-          className="w-full border rounded-md px-3 py-2"
+          className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
         />
         <input
           type="text"
           name="employerJobTitle"
           data-label="Employer: Job Title"
           placeholder="Job Title"
-          className="w-full border rounded-md px-3 py-2"
+          className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
         />
         <input
           type="text"
           name="employerDates"
           data-label="Employer: Dates of Employment"
           placeholder="Dates of Employment (example: January 2023 – Present)"
-          className="w-full border rounded-md px-3 py-2"
+          className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
         />
         <input
           type="text"
           name="employerSupervisorName"
           data-label="Employer: Supervisor Name"
           placeholder="Supervisor Name"
-          className="w-full border rounded-md px-3 py-2"
+          className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
         />
         <PhoneInput
           name="employerSupervisorPhone"
@@ -395,7 +395,7 @@ export default function EmploymentForm() {
           data-label="Employer: Duties"
           placeholder="Describe Duties"
           rows={3}
-          className="w-full border rounded-md px-3 py-2"
+          className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
         />
       </div>
 
@@ -412,7 +412,7 @@ export default function EmploymentForm() {
           name="contactPermission"
           required
           data-label="Permission to Contact Employer(s)"
-          className="mt-1 w-full border rounded-md px-3 py-2"
+          className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
         >
           <option value="">Select one</option>
           <option value="Yes">Yes</option>
@@ -435,14 +435,14 @@ export default function EmploymentForm() {
             name={`reference${n}Name`}
             data-label={`Reference #${n}: Name`}
             placeholder="Name"
-            className="w-full border rounded-md px-3 py-2"
+            className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
           />
           <input
             type="text"
             name={`reference${n}Company`}
             data-label={`Reference #${n}: Company`}
             placeholder="Company"
-            className="w-full border rounded-md px-3 py-2"
+            className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
           />
           <PhoneInput
             name={`reference${n}Phone`}
@@ -454,7 +454,7 @@ export default function EmploymentForm() {
             name={`reference${n}Relationship`}
             data-label={`Reference #${n}: Relationship`}
             placeholder="Relationship"
-            className="w-full border rounded-md px-3 py-2"
+            className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
           />
         </div>
       ))}
@@ -544,7 +544,7 @@ export default function EmploymentForm() {
           name="signature"
           required
           data-label="Applicant Signature"
-          className="mt-1 w-full border rounded-md px-3 py-2"
+          className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
         />
       </div>
 
@@ -557,7 +557,7 @@ export default function EmploymentForm() {
           name="date"
           required
           data-label="Date Signed"
-          className="mt-1 w-full border rounded-md px-3 py-2"
+          className="w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
           defaultValue={new Date().toISOString().split("T")[0]}
         />
       </div>

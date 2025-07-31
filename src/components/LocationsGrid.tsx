@@ -48,7 +48,7 @@ const locations = [
   },
   {
     name: "Sterling Heights",
-    image: "/images/locations/SteRling-Heights-Sidecar-Slider-Bar.jpg",
+    image: "/images/locations/Sterling-Heights-Sidecar-Slider-Bar.jpg",
     alt: "Bar and dining area at Sidecar Slider Bar Sterling Heights location",
     link: "/locations/sterling-heights",
   },
