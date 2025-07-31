@@ -13,7 +13,7 @@ export default function LocationsPage() {
       {/* Hero */}
       <section className="relative h-[60vh] rounded-xl overflow-hidden shadow-lg">
         <Image
-          src="/images/moto-sidecar-placeholder.jpg"
+          src="/images/Sidecar-Slider-Bar-menu-items.jpg"
           alt="Find a Location"
           fill
           className="object-cover"
@@ -39,7 +39,10 @@ export default function LocationsPage() {
           >
             <div className="relative h-56 w-full">
               <Image
-                src={data.heroImage ?? "/images/moto-sidecar-placeholder.jpg"}
+                src={
+                  data.heroImage ??
+                  "/images/locations/Ferndale-Sidecar-Slider-Bar.jpg"
+                }
                 alt={`${data.name} Hero`}
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300"

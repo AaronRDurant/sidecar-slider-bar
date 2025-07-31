@@ -3,7 +3,7 @@ const plymouth = {
   name: "Plymouth",
   address: "340 N. Main St., Plymouth, MI 48170",
   phone: "(734) 404-6567",
-  hours: "Monday – Sunday: 11:00 AM – 2:00 AM",
+  hours: "Monday – Sunday: 11 am – 2 am",
   deliveryPartners: [
     {
       name: "DoorDash",
@@ -18,9 +18,9 @@ const plymouth = {
     lat: 42.37329,
     lng: -83.47083,
   },
-  heroImage: "/images/moto-sidecar-placeholder.jpg",
+  heroImage: "/images/locations/Plymouth-Sidecar-Slider-Bar.jpg",
   galleryImages: [
-    "/images/moto-sidecar-placeholder.jpg",
+    "/images/Sidecar-Slider-Bar-pizza-street-view.jpg",
     "/images/moto-sidecar-placeholder.jpg",
     "/images/moto-sidecar-placeholder.jpg",
     "/images/moto-sidecar-placeholder.jpg",

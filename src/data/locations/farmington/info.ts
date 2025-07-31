@@ -4,7 +4,7 @@ const farmington = {
   address: "32720 Grand River Avenue, Farmington, MI 48336",
   phone: "(248) 536-2907",
   hours:
-    "Monday – Thursday: 11:00 AM – 11:00 PM\nFriday – Saturday: 11:00 AM – 12:00 AM\nSunday: 11:00 AM – 10:00 PM",
+    "Monday – Thursday: 11 am – 11 pm\nFriday – Saturday: 11 am – 12 am\nSunday: 11 am – 10 pm",
   deliveryPartners: [
     {
       name: "DoorDash",
@@ -23,7 +23,7 @@ const farmington = {
     lat: 42.46176,
     lng: -83.37688,
   },
-  heroImage: "/images/moto-sidecar-placeholder.jpg",
+  heroImage: "/images/locations/Farmington-Sidecar-Slider-Bar.jpg",
   galleryImages: [
     "/images/moto-sidecar-placeholder.jpg",
     "/images/moto-sidecar-placeholder.jpg",

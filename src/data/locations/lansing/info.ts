@@ -3,7 +3,7 @@ const lansing = {
   name: "Lansing",
   address: "500 E Michigan Ave, Suite 100, Lansing, MI 48912",
   phone: "(517) 580-8776",
-  hours: "Monday – Sunday: 11:00 AM – 2:00 AM",
+  hours: "Monday – Sunday: 11 am – 2 am",
   deliveryPartners: [
     {
       name: "DoorDash",
@@ -22,9 +22,9 @@ const lansing = {
     lat: 42.73403,
     lng: -84.54404,
   },
-  heroImage: "/images/moto-sidecar-placeholder.jpg",
+  heroImage: "/images/locations/Lansing-Sidecar-Slider-Bar.jpg",
   galleryImages: [
-    "/images/moto-sidecar-placeholder.jpg",
+    "/images/Sidecar-Slider-Bar-pizza-street-view.jpg",
     "/images/moto-sidecar-placeholder.jpg",
     "/images/moto-sidecar-placeholder.jpg",
     "/images/moto-sidecar-placeholder.jpg",

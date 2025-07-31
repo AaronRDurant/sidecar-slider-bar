@@ -4,7 +4,7 @@ const brighton = {
   address: "120 W. Main St., Brighton, MI 48116",
   phone: "(810) 588-4855",
   hours:
-    "Monday – Thursday: 11:00 AM – 11:00 PM\nFriday – Saturday: 11:00 AM – 12:00 AM\nSunday: 11:00 AM – 10:00 PM",
+    "Monday – Thursday: 11 am – 11 pm\nFriday – Saturday: 11 am – 12 pm\nSunday: 11 am – 10 pm",
   deliveryPartners: [
     {
       name: "DoorDash",
@@ -15,7 +15,7 @@ const brighton = {
     lat: 42.52919,
     lng: -83.78098,
   },
-  heroImage: "/images/moto-sidecar-placeholder.jpg",
+  heroImage: "/images/locations/Brighton-Sidecar-Slider-Bar.jpg",
   galleryImages: [
     "/images/moto-sidecar-placeholder.jpg",
     "/images/moto-sidecar-placeholder.jpg",

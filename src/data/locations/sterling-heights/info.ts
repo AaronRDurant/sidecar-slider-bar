@@ -3,15 +3,15 @@ const sterlingHeights = {
   name: "Sterling Heights",
   address: "44935 Hayes Rd, Sterling Heights, MI 48313",
   phone: "(586) 300-7144",
-  hours: "Monday – Sunday: 11:00 AM – 2:00 AM",
+  hours: "Monday – Sunday: 11 am – 2 am",
   deliveryPartners: [],
   coordinates: {
     lat: 42.62698,
     lng: -82.97089,
   },
-  heroImage: "/images/moto-sidecar-placeholder.jpg",
+  heroImage: "/images/locations/Sterling-Heights-Sidecar-Slider-Bar.jpg",
   galleryImages: [
-    "/images/moto-sidecar-placeholder.jpg",
+    "/images/Sidecar-Slider-Bar-pizza-street-view.jpg",
     "/images/moto-sidecar-placeholder.jpg",
     "/images/moto-sidecar-placeholder.jpg",
     "/images/moto-sidecar-placeholder.jpg",

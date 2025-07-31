@@ -4,7 +4,7 @@ const grossePointe = {
   address: "17051 Kercheval Ave, Grosse Pointe, MI 48230",
   phone: "(313) 332-5236",
   hours:
-    "Monday – Thursday: 11:00 AM – 10:00 PM\nFriday – Saturday: 11:00 AM – 12:00 AM\nSunday: 11:00 AM – 10:00 PM",
+    "Monday – Thursday: 11 am – 10 pm\nFriday – Saturday: 11 am – 12 am\nSunday: 11 am – 10 pm",
   deliveryPartners: [
     {
       name: "GrubHub",
@@ -19,7 +19,7 @@ const grossePointe = {
     lat: 42.38695,
     lng: -82.91777,
   },
-  heroImage: "/images/moto-sidecar-placeholder.jpg",
+  heroImage: "/images/locations/Grosse-Pointe-Sidecar-Slider-Bar.jpg",
   galleryImages: [
     "/images/moto-sidecar-placeholder.jpg",
     "/images/moto-sidecar-placeholder.jpg",

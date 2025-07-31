@@ -3,7 +3,7 @@ const ferndale = {
   name: "Ferndale",
   address: "241 W Nine Mile Rd, Ferndale, MI 48220",
   phone: "(248) 607-3261",
-  hours: "Monday – Sunday: 11:00 AM – 2:00 AM",
+  hours: "Monday – Sunday: 11 am – 2 am",
   deliveryPartners: [
     {
       name: "DoorDash",
@@ -22,7 +22,7 @@ const ferndale = {
     lat: 42.46004,
     lng: -83.13881,
   },
-  heroImage: "/images/moto-sidecar-placeholder.jpg",
+  heroImage: "/images/locations/Ferndale-Sidecar-Slider-Bar.jpg",
   galleryImages: [
     "/images/moto-sidecar-placeholder.jpg",
     "/images/moto-sidecar-placeholder.jpg",

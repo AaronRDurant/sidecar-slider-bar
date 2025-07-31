@@ -3,7 +3,7 @@ const birmingham = {
   name: "Birmingham",
   address: "117 Willits Street, Birmingham, MI 48009",
   phone: "(248) 792-2380",
-  hours: "Monday – Sunday: 11:00 AM – 2:00 AM",
+  hours: "Monday – Sunday: 11 am – 2 am",
   deliveryPartners: [
     {
       name: "DoorDash",
@@ -22,7 +22,7 @@ const birmingham = {
     lat: 42.54655,
     lng: -83.21524,
   },
-  heroImage: "/images/moto-sidecar-placeholder.jpg",
+  heroImage: "/images/locations/Birmingham-Sidecar-Slider-Bar.jpg",
   galleryImages: [
     "/images/moto-sidecar-placeholder.jpg",
     "/images/moto-sidecar-placeholder.jpg",
