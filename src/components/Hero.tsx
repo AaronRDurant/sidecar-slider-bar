@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-
 import Image from "next/image";
 
 export default function Hero() {
@@ -28,9 +27,21 @@ export default function Hero() {
           Fresh sliders, craft cocktails, and a laid-back neighborhood vibe
           you&apos;ll love — served up daily across Metro Detroit.
         </p>
+
+        {/* Mobile: Order Online */}
+        <Link
+          href="https://order.online/business/~108859"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block rounded border border-white px-6 py-3 text-sm font-semibold text-white transition hover:bg-white hover:text-neutral-900 sm:hidden"
+        >
+          Order Online
+        </Link>
+
+        {/* Desktop: Find a Location */}
         <Link
           href="/locations"
-          className="inline-block rounded border border-white px-6 py-3 text-sm font-semibold text-white transition hover:bg-white hover:text-neutral-900"
+          className="hidden sm:inline-block rounded border border-white px-6 py-3 text-sm font-semibold text-white transition hover:bg-white hover:text-neutral-900"
         >
           Find a Location
         </Link>
