@@ -5,7 +5,7 @@ export default function PhoneInput({
   name,
   required = false,
   placeholder = "123-456-7890",
-  className = "mt-1 w-full border rounded-md px-3 py-2",
+  className = "w-full border border-neutral-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500",
   dataLabel,
 }: {
   name: string;

@@ -13,8 +13,8 @@ export default function CateringPage() {
       {/* Hero */}
       <section className="relative h-72 md:h-96 w-full overflow-hidden">
         <Image
-          src="/images/moto-sidecar-placeholder.jpg"
-          alt="Sidecar Catering Hero"
+          src="/images/Sidecar-Slider-Bar-catering-options.jpg"
+          alt="Sidecar Slider Bar catering menu options"
           fill
           className="object-cover object-center"
           priority
@@ -42,16 +42,19 @@ export default function CateringPage() {
           Sidecar can serve your crowd.
         </p>
         <a
-          href="/pdfs/sidecar-catering-menu.pdf"
+          href="/pdfs/Sidecar-Slider-Bar-catering-menu.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-red-700 text-white px-6 py-3 rounded-md font-medium hover:bg-red-800 transition"
         >
-          Download Menu PDF
+          View Menu PDF
         </a>
       </section>
 
-      {/* Menu Preview */}
+      {/*
+      // -----------------------------
+      // Menu Preview (commented out)
+      // -----------------------------
       <section className="max-w-5xl mx-auto px-4 pb-16">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold tracking-tight">
@@ -102,6 +105,7 @@ export default function CateringPage() {
           </div>
         </div>
       </section>
+      */}
 
       {/* Form */}
       <section className="bg-neutral-100 py-16 px-4">
