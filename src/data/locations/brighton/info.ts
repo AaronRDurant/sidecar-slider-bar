@@ -8,7 +8,7 @@ const brighton = {
   deliveryPartners: [
     {
       name: "DoorDash",
-      url: "https://www.doordash.com/store/sidecar-slider-bar-brighton-...",
+      url: "https://www.doordash.com/store/sidecar-slider-bar-brighton-26146773/",
     },
   ],
   coordinates: {
@@ -17,10 +17,10 @@ const brighton = {
   },
   heroImage: "/images/locations/Brighton-Sidecar-Slider-Bar.jpg",
   galleryImages: [
-    "/images/moto-sidecar-placeholder.jpg",
-    "/images/moto-sidecar-placeholder.jpg",
-    "/images/moto-sidecar-placeholder.jpg",
-    "/images/moto-sidecar-placeholder.jpg",
+    "/images/Sidecar-Slider-Bar-menu-items.jpg",
+    "/images/Sidecar-Slider-Bar-sliders-menu.jpg",
+    "/images/locations/Birmingham-Sidecar-Slider-Bar.jpg",
+    "/images/locations/Farmington-Sidecar-Slider-Bar.jpg",
   ],
   menu: [
     {

@@ -21,6 +21,7 @@ type LocationData = {
   phone: string;
   hours: string;
   coordinates: { lat: number; lng: number };
+  heroImage: string;
   deliveryPartners?: DeliveryPartner[];
   menu?: MenuSection[];
   galleryImages?: string[];
@@ -90,7 +91,7 @@ export default async function Page({
     <main className="max-w-screen-xl mx-auto px-4 py-12 space-y-20">
       <section className="relative h-[60vh] rounded-xl overflow-hidden shadow-lg">
         <Image
-          src="/images/moto-sidecar-placeholder.jpg"
+          src={data.heroImage}
           alt={`${data.name} Hero`}
           fill
           className="object-cover"
@@ -106,7 +107,9 @@ export default async function Page({
       <section className="text-center space-y-4">
         <p className="text-lg">{data.address}</p>
         <p className="font-semibold">{data.phone}</p>
-        <p className="text-sm text-neutral-600">{data.hours}</p>
+        <p className="text-sm text-neutral-600 whitespace-pre-line">
+          {data.hours}
+        </p>
         {(data.deliveryPartners?.length ?? 0) > 0 && (
           <div className="flex justify-center gap-4 mt-2">
             {data.deliveryPartners!.map((partner: DeliveryPartner) => (
@@ -134,6 +137,13 @@ export default async function Page({
         ></iframe>
       </section>
 
+      {/*
+        === TEMPORARILY DISABLED MENU SECTION ===
+        This section displays a location's full menu from the hardcoded data.
+        It's currently commented out until we implement (most likely) Sanity CMS,
+        at which point the menu will be dynamically managed by the client.
+      */}
+      {/*
       {(data.menu?.length ?? 0) > 0 && (
         <section>
           <h2 className="text-2xl font-bold uppercase text-center mb-8">
@@ -167,6 +177,7 @@ export default async function Page({
           </div>
         </section>
       )}
+      */}
 
       {(data.galleryImages?.length ?? 0) > 0 && (
         <section>
@@ -174,10 +185,10 @@ export default async function Page({
             Take a Look Inside
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {data.galleryImages!.map((_: unknown, i: number) => (
+            {data.galleryImages!.map((img: string, i: number) => (
               <Image
                 key={i}
-                src="/images/moto-sidecar-placeholder.jpg"
+                src={img}
                 alt={`${data.name} gallery ${i + 1}`}
                 width={400}
                 height={300}

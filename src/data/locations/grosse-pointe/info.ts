@@ -7,12 +7,12 @@ const grossePointe = {
     "Monday – Thursday: 11 am – 10 pm\nFriday – Saturday: 11 am – 12 am\nSunday: 11 am – 10 pm",
   deliveryPartners: [
     {
-      name: "GrubHub",
-      url: "https://www.grubhub.com/restaurant/sidecar-slider-bar-grosse-pointe-...",
+      name: "Grubhub",
+      url: "https://www.grubhub.com/restaurant/sidecar-slider-bar--grosse-pointe-llc-17051-kercheval-ave-grosse-pointe/7604712",
     },
     {
-      name: "UberEats",
-      url: "https://www.ubereats.com/store/sidecar-slider-bar-grosse-pointe-...",
+      name: "Uber Eats",
+      url: "https://www.ubereats.com/store/sidecar-slider-bar-gp/fnsqYUy8Wi24y_h05gxjUA",
     },
   ],
   coordinates: {
@@ -21,10 +21,10 @@ const grossePointe = {
   },
   heroImage: "/images/locations/Grosse-Pointe-Sidecar-Slider-Bar.jpg",
   galleryImages: [
-    "/images/moto-sidecar-placeholder.jpg",
-    "/images/moto-sidecar-placeholder.jpg",
-    "/images/moto-sidecar-placeholder.jpg",
-    "/images/moto-sidecar-placeholder.jpg",
+    "/images/Sidecar-Slider-Bar-menu-items.jpg",
+    "/images/Sidecar-Slider-Bar-sliders-menu.jpg",
+    "/images/locations/Birmingham-Sidecar-Slider-Bar.jpg",
+    "/images/locations/Farmington-Sidecar-Slider-Bar.jpg",
   ],
   menu: [
     {

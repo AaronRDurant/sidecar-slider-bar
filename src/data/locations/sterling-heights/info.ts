@@ -11,10 +11,10 @@ const sterlingHeights = {
   },
   heroImage: "/images/locations/Sterling-Heights-Sidecar-Slider-Bar.jpg",
   galleryImages: [
-    "/images/Sidecar-Slider-Bar-pizza-street-view.jpg",
-    "/images/moto-sidecar-placeholder.jpg",
-    "/images/moto-sidecar-placeholder.jpg",
-    "/images/moto-sidecar-placeholder.jpg",
+    "/images/Sidecar-Slider-Bar-menu-items.jpg",
+    "/images/Sidecar-Slider-Bar-sliders-menu.jpg",
+    "/images/locations/Birmingham-Sidecar-Slider-Bar.jpg",
+    "/images/locations/Farmington-Sidecar-Slider-Bar.jpg",
   ],
   menu: [
     {

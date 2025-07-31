@@ -7,11 +7,11 @@ const plymouth = {
   deliveryPartners: [
     {
       name: "DoorDash",
-      url: "https://www.doordash.com/store/sidecar-slider-bar-plymouth-...",
+      url: "https://www.doordash.com/store/sidecar-slider-bar-plymouth-26038815/",
     },
     {
-      name: "UberEats",
-      url: "https://www.ubereats.com/store/sidecar-slider-bar-plymouth-...",
+      name: "Uber Eats",
+      url: "https://www.ubereats.com/store/sidecar-plymouth/Jdx9o_XPSmOt8a7NDZb1MA",
     },
   ],
   coordinates: {
@@ -20,10 +20,10 @@ const plymouth = {
   },
   heroImage: "/images/locations/Plymouth-Sidecar-Slider-Bar.jpg",
   galleryImages: [
-    "/images/Sidecar-Slider-Bar-pizza-street-view.jpg",
-    "/images/moto-sidecar-placeholder.jpg",
-    "/images/moto-sidecar-placeholder.jpg",
-    "/images/moto-sidecar-placeholder.jpg",
+    "/images/Sidecar-Slider-Bar-menu-items.jpg",
+    "/images/Sidecar-Slider-Bar-sliders-menu.jpg",
+    "/images/locations/Birmingham-Sidecar-Slider-Bar.jpg",
+    "/images/locations/Farmington-Sidecar-Slider-Bar.jpg",
   ],
   menu: [
     {
