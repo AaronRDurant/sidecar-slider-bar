@@ -37,33 +37,35 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold mb-6">Our Story</h2>
           <div className="space-y-5 text-lg leading-relaxed">
             <p>
-              At Sidecar Slider Bar, we serve crave-worthy sliders, shareable
-              apps, and a full bar lineup in a welcoming, laid-back atmosphere.
+              Welcome to Sidecar Slider Bar, where bold flavor meets laid-back
+              comfort. We&apos;re proud to serve crave-worthy sliders made with
+              USDA-certified beef, hand-breaded chicken, and the freshest local
+              ingredients.
             </p>
             <p>
-              Our menu includes classic beef sliders, creative chef-inspired
-              options, gourmet hot dogs, loaded tots, salads, and more.
-              There&apos;s truly something for everyone.
+              From classic favorites to chef-driven creations, every bite is
+              crafted with care and packed with flavor. Pair your sliders with
+              loaded tots, shareable apps, gourmet hot dogs, crisp salads, and
+              more — there&apos;s something for every craving.
             </p>
             <p>
-              Behind the bar, you&apos;ll find a curated mix of Michigan craft
-              beers, signature cocktails, wine, and one of the most impressive
-              bourbon selections in the area — featuring rare bottles you
-              won&apos;t find anywhere else.
+              Behind the bar, we keep things just as exciting. Discover a
+              curated selection of Michigan craft beers, handcrafted cocktails,
+              and a standout bourbon collection featuring rare, hard-to-find
+              bottles you won&apos;t see anywhere else.
             </p>
             <p>
-              What started as a small bar in Birmingham, Michigan, has grown
-              into a local favorite with{" "}
-              <strong>eight locations across Metro Detroit</strong>. Each one
-              brings the same bold flavors, welcoming service, and neighborhood
-              vibe that made us who we are.
+              What began as a cozy neighborhood bar in Birmingham, Michigan has
+              grown into a Metro Detroit favorite with eight locations and
+              counting, all carrying the same spirit: bold food, great drinks,
+              and warm hospitality.
             </p>
             <p>
-              Whether you&apos;re grabbing lunch, catching the game, celebrating
-              with friends, or winding down at happy hour, we&apos;re here to
-              make it memorable.
+              Whether you&apos;re catching the game, meeting up with friends,
+              enjoying happy hour, or just grabbing a bite, Sidecar is your
+              go-to spot for good times and unforgettable flavor. We&apos;ll
+              save you a seat.
             </p>
-            <p>See you at Sidecar Slider Bar soon!</p>
           </div>
         </div>
       </section>

@@ -19,10 +19,11 @@ export default function Footer() {
               />
             </Link>
             <p className="mt-3 max-w-sm mx-auto sm:mx-0 leading-relaxed text-neutral-600">
-              Gourmet sliders, craft beer, and cocktails — served in a welcoming
-              Michigan atmosphere. With eight locations across the state, we
-              offer something for everyone, from classic beef sliders to loaded
-              tots.
+              Gourmet sliders, craft beer, and handcrafted cocktails, all served
+              in a warm, authentically Michigan setting. With eight locations
+              and counting, we&apos;ve got something for everyone, from juicy
+              USDA-certified beef sliders to hand-breaded chicken, loaded tots,
+              and more.
             </p>
           </div>
 

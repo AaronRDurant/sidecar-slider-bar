@@ -14,6 +14,7 @@ export default function Header() {
     { label: "Locations", href: "/locations" },
     { label: "Catering", href: "/catering" },
     { label: "Contact", href: "/contact" },
+    { label: "Join Our Team", href: "/apply" },
   ];
 
   return (
