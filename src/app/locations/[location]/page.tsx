@@ -86,6 +86,8 @@ export default async function Page({
   if (!isValidLocation(location)) return notFound();
 
   const data = locationData[location];
+  const hasDeliveryPartners =
+    Array.isArray(data.deliveryPartners) && data.deliveryPartners.length > 0;
 
   return (
     <main className="max-w-screen-xl mx-auto px-4 py-12 space-y-20">
@@ -110,7 +112,7 @@ export default async function Page({
         <p className="text-sm text-neutral-600 whitespace-pre-line">
           {data.hours}
         </p>
-        {(data.deliveryPartners?.length ?? 0) > 0 && (
+        {hasDeliveryPartners && (
           <div className="flex justify-center gap-4 mt-2">
             {data.deliveryPartners!.map((partner: DeliveryPartner) => (
               <a
@@ -137,20 +139,13 @@ export default async function Page({
         ></iframe>
       </section>
 
-      {/*
-        === TEMPORARILY DISABLED MENU SECTION ===
-        This section displays a location's full menu from the hardcoded data.
-        It's currently commented out until we implement (most likely) Sanity CMS,
-        at which point the menu will be dynamically managed by the client.
-      */}
-      {/*
-      {(data.menu?.length ?? 0) > 0 && (
+      {data.menu && (
         <section>
           <h2 className="text-2xl font-bold uppercase text-center mb-8">
             Our Menu
           </h2>
           <div className="space-y-12">
-            {data.menu!.map((section: MenuSection) => (
+            {data.menu.map((section: MenuSection) => (
               <div key={section.category}>
                 <h3 className="text-xl font-semibold mb-4 border-b pb-2">
                   {section.category}
@@ -160,8 +155,8 @@ export default async function Page({
                     <li key={item.name}>
                       <div className="flex justify-between items-start">
                         <div>
-                          <p className="font-semibold">{item.name}</p>
-                          <p className="text-sm text-neutral-600">
+                          <p className="font-semibold uppercase">{item.name}</p>
+                          <p className="text-sm text-neutral-600 lowercase">
                             {item.description}
                           </p>
                         </div>
@@ -177,7 +172,6 @@ export default async function Page({
           </div>
         </section>
       )}
-      */}
 
       {(data.galleryImages?.length ?? 0) > 0 && (
         <section>
