@@ -42,7 +42,7 @@ export default function CateringPage() {
           Sidecar can serve your crowd.
         </p>
         <a
-          href="/Sidecar-Slider-Bar-catering-menu.pdf"
+          href="/Sidecar-Slider-Bar-2025-catering-menu.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-red-700 text-white px-6 py-3 rounded-md font-medium hover:bg-red-800 transition"
