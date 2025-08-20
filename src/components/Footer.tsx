@@ -65,6 +65,15 @@ export default function Footer() {
                   Order Online
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="https://services.shift4.com/gc/SidecarSliderBar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Gift Cards
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
